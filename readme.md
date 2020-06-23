@@ -2,7 +2,7 @@
 
 ## What is a container
 
-Docker and other resources partitions operating systems as aposed to resources.
+Docker and other resources partitions operating systems as oposed to resources.
 
 What is partitioned:
 - Processs namespace
@@ -24,3 +24,20 @@ This means that every container will have its own Process, network and file syst
 - `docker run` starts a new container
 - `Docker Hub` is the default public registry
 - The daemon will pull images that it doesn't already have.
+
+## Containers and Images
+
+Images - Stopped containers
+Containers - running images
+
+`docker pull <name_of_image>` this command will pull an image from docker
+
+Where to find images: `hub.docker.com/`
+
+## Container Lifecycle
+
+- `docker start <container>` - runs a container
+- `docker stop <contianer>` - stops container
+- `docker rm <contaier>` - Removes container
+
+Wheather or not the container starts or stops, the data for the container is not lost unless you remove it.
