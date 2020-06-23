@@ -41,3 +41,4 @@ Where to find images: `hub.docker.com/`
 - `docker rm <contaier>` - Removes container
 
 Wheather or not the container starts or stops, the data for the container is not lost unless you remove it.
+
